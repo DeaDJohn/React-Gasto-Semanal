@@ -16,7 +16,7 @@ export default class Formulario extends Component{
             nombreGasto: this.nombreGastoRef.current.value,
             cantidadGasto: this.cantidadGastoRef.current.value,
         }
-        // console.log(gasto);
+
         // agregarlo y enviarlo por props
         this.props.agregarGasto(gasto);
 
